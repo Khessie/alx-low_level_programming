@@ -1,7 +1,6 @@
 /**
- *main - entry point
- *
- *Return: 0 after printing the function
+ *main - main block
+ *Return: 0 
 */
 int main (void)
 {
