@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Print all possible combinations of two digits.  Numbers must be separated by commas and a space.
- * 
+ * Description: Print all possible combinations of two digits.Numbers must be separated by commas and a space. 
  * Return: 0
  */
 int main(void)
