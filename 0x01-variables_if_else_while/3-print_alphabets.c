@@ -1,19 +1,28 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int c;
+int x, y;
 
-for (c = 0; c < 26; ++c)
-putchar("n" + c);
-for (c = 0; c < 26; ++c)
-putchar("A" + c);
-
-
+<<<<<<< HEAD
+for (m = 97; m <= 122; m++)
+putchar(m);
+for (n = 65; n <= 90; n++)
+putchar(n);
+=======
+for (x = 97; x<= 122; x++)
+{
+putchar(x);
+}
+for (y = 65; y <= 90; y++)
+{
+putchar(y);
+}
+>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
 putchar('\n');
 return (0);
 }
