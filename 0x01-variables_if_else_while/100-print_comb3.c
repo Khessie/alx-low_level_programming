@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: Print all possible combinations of two digits. 
- * Return: 0
- */
+* main - main block
+* Description: Print all possible combinations of two digits. 
+* Return: 0
+*/
 int main(void)
 {
 int i, j, k;
