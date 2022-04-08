@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-char c = 'a';
+int c;
 
-while (c <= 'z')
-{
-putchar(c);
-c++;
-}
+for (c = 0; c < 26; ++c)
+putchar("n" + c);
+for (c = 0; c < 26; ++c)
+putchar("A" + c);
+
 
 putchar('\n');
 return (0);
