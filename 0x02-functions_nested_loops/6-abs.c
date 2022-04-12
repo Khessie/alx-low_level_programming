@@ -1,29 +1,15 @@
 #include "main.h"
 
 /**
- *  print_last_digit - last digit
- *
- *@n: The int to print
- * Return: Always 0.
+ *_abs - Check Holberton
+ * @r: An integre input
+ * Description: This function returns absolute value of a number
+ * Return: Absolut value of number r
  */
-
-int print_last_digit(int n)
-
+int _abs(int r)
 {
-int last_digit;
-
-if (n < 0)
-{
-last_digit = (-1 * (n % 10));
-_putchar (last_digit + '0');
-return (last_digit);
-}
-
+if (r >= 0)
+return (r);
 else
-{
-last_digit = (n % 10);
-_putchar (last_digit + '0');
-return (last_digit);
-}
-
+return (r * -1);
 }
