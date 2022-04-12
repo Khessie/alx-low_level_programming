@@ -1,15 +1,14 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_times_table - prints times table
- * @n : times table to use
- * Return:void
+ * @n : times table to be printed
  */
 
 void print_times_table(int n)
 {
 
-int a = 0, rep, b;
+int num, mult, prod;
 
 if (n < 0 || n > 15)
 	return;
